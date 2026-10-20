@@ -1,2 +1,193 @@
-# Pencatatan-Uang
-Dompet Aman, Hati Tenang !!
+# Uang Siapa? 💸 (Versi 1.2)
+
+<img src="./icon.svg" width="128" height="128" />
+
+Aplikasi pencatatan keuangan pribadi modern berbasis Android yang dirancang untuk membantu pengguna melacak pendapatan (uang masuk) dan pengeluaran (uang keluar) dengan mudah, aman, dan sepenuhnya offline. Aplikasi ini mendukung visualisasi data, analisis kategori, pencarian data interaktif, serta ekspor laporan ke berbagai format populer (PDF, Excel, CSV).
+
+---
+
+<table align="center">
+  <tr>
+    <td><a href="./screenshots/00_dark.png" target="_blank"><img src="./screenshots/00_dark.png" width="200" /></a></td>
+    <td><a href="./screenshots/00_light.png" target="_blank"><img src="./screenshots/00_light.png" width="200" /></a></td>
+    <td><a href="./screenshots/00_new.png" target="_blank"><img src="./screenshots/00_new.png" width="200" /></a></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><a href="./screenshots/01.png" target="_blank"><img src="./screenshots/01.png" width="200" /></a></td>
+    <td><a href="./screenshots/02.png" target="_blank"><img src="./screenshots/02.png" width="200" /></a></td>
+    <td><a href="./screenshots/03.png" target="_blank"><img src="./screenshots/03.png" width="200" /></a></td>
+    <td><a href="./screenshots/04.png" target="_blank"><img src="./screenshots/04.png" width="200" /></a></td>
+    <td><a href="./screenshots/05.png" target="_blank"><img src="./screenshots/05.png" width="200" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="./screenshots/06.png" target="_blank"><img src="./screenshots/06.png" width="200" /></a></td>
+    <td><a href="./screenshots/07.png" target="_blank"><img src="./screenshots/07.png" width="200" /></a></td>
+    <td><a href="./screenshots/08.png" target="_blank"><img src="./screenshots/08.png" width="200" /></a></td>
+    <td><a href="./screenshots/09.png" target="_blank"><img src="./screenshots/09.png" width="200" /></a></td>
+    <td><a href="./screenshots/10.png" target="_blank"><img src="./screenshots/10.png" width="200" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="./screenshots/11.png" target="_blank"><img src="./screenshots/11.png" width="200" /></a></td>
+    <td><a href="./screenshots/12.png" target="_blank"><img src="./screenshots/12.png" width="200" /></a></td>
+    <td><a href="./screenshots/13.png" target="_blank"><img src="./screenshots/13.png" width="200" /></a></td>
+    <td><a href="./screenshots/14.png" target="_blank"><img src="./screenshots/14.png" width="200" /></a></td>
+    <td><a href="./screenshots/15.png" target="_blank"><img src="./screenshots/15.png" width="200" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="./screenshots/16.png" target="_blank"><img src="./screenshots/16.png" width="200" /></a></td>
+    <td><a href="./screenshots/17.png" target="_blank"><img src="./screenshots/17.png" width="200" /></a></td>
+    <td><a href="./screenshots/18.png" target="_blank"><img src="./screenshots/18.png" width="200" /></a></td>
+    <td><a href="./screenshots/19.png" target="_blank"><img src="./screenshots/19.png" width="200" /></a></td>
+    <td><a href="./screenshots/20.png" target="_blank"><img src="./screenshots/20.png" width="200" /></a></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><a href="./screenshots/excel_bulanan_1.png" target="_blank"><img src="./screenshots/excel_bulanan_1.png" width="200" /></a></td>
+    <td><a href="./screenshots/excel_bulanan_2.png" target="_blank"><img src="./screenshots/excel_bulanan_2.png" width="200" /></a></td>
+    <td><a href="./screenshots/excel_tahunan_1.png" target="_blank"><img src="./screenshots/excel_tahunan_1.png" width="200" /></a></td>
+    <td><a href="./screenshots/excel_tahunan_2.png" target="_blank"><img src="./screenshots/excel_tahunan_2.png" width="200" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="./screenshots/pdf_bulanan_1.jpg" target="_blank"><img src="./screenshots/pdf_bulanan_1.jpg" width="200" /></a></td>
+    <td><a href="./screenshots/pdf_bulanan_2.jpg" target="_blank"><img src="./screenshots/pdf_bulanan_2.jpg" width="200" /></a></td>
+    <td><a href="./screenshots/pdf_tahunan_1.jpg" target="_blank"><img src="./screenshots/pdf_tahunan_1.jpg" width="200" /></a></td>
+    <td><a href="./screenshots/pdf_tahunan_2.jpg" target="_blank"><img src="./screenshots/pdf_tahunan_2.jpg" width="200" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="./screenshots/pdf_tahunan_3.jpg" target="_blank"><img src="./screenshots/pdf_tahunan_3.jpg" width="200" /></a></td>
+    <td><a href="./screenshots/csv_bulanan.png" target="_blank"><img src="./screenshots/csv_bulanan.png" width="200" /></a></td>
+    <td><a href="./screenshots/csv_tahunan.png" target="_blank"><img src="./screenshots/csv_tahunan.png" width="200" /></a></td>
+    <td><a href="./screenshots/backup_json.png" target="_blank"><img src="./screenshots/backup_json.png" width="200" /></a></td>
+  </tr>
+</table>
+
+---
+
+## 🌟 Fitur Utama (Versi Terbaru 1.2)
+
+### 1. **Kemudahan Pengisian Form & Tombol Hapus Cepat ('X')**
+- **Tombol 'X' Ringkas pada Setiap Input:** Dilengkapi tombol clear 'X' berukuran pas pada seluruh kolom pengisian (Nama Buku Baru di Pop-up, Nominal Transaksi, Kategori, dan Keterangan) untuk menghapus isi teks secara instan.
+- **Pembersihan Fokus / Kursor Otomatis:** Kursor teks dan keyboard otomatis terhenti/nonaktif saat pengguna melakukan tap di area kosong di luar form maupun pop-up dialog.
+
+### 2. **Animasi Swipe & Pesan Lucu Ala Gen-Z**
+- **Swipe Gesture Stabil:** Penggeseran baris transaksi ke kiri (Hapus) dan kanan (Edit) yang super smooth tanpa glitch.
+- **Pesan / Quips Gaul Ala Gen-Z:** Menampilkan kalimat mutiara & pesan singkat acak bertema keuangan, kerja, self-care, menghargai sesama, anabul, hingga lingkungan (misal: *"Hargai dirimu, lo udah berjuang hebat 🌟"*, *"Meringankan dompet demi pakan anabul 🐱"*, *"Bawa tumbler sendiri, hemat + ramah bumi 🌿"*, *"Jangan jajan mulu, bang!"*).
+
+### 3. **Pencarian Data & Keterangan Interaktif**
+- **Kotak Pencarian Serbaguna & Kompak:** Mencakup pencarian seluruh teks transaksi (keterangan/deskripsi, nama kategori, hingga angka nominal rupiah) dengan desain ringkas dan nyaman dipandang.
+- **Tombol Hapus Teks Cepat:** Dilengkapi tombol ikon 'X' untuk menghapus kata kunci pencarian secara instan.
+- **Pembersihan Fokus Otomatis (Auto Keyboard Dismiss):** Kursor pencarian dan keyboard otomatis tertutup/nonaktif secara cerdas ketika pengguna melakukan ketukan (tap) di area luar kotak pencarian atau saat menggeser (scroll) daftar transaksi.
+- **Kombinasi Filter & Reset Total:** Dapat dikombinasikan dengan filter tipe transaksi (Masuk/Keluar), filter kategori, dan filter rentang tanggal. Tombol **Reset** secara otomatis menghapus seluruh filter aktif dan pencarian kata kunci sekaligus dalam satu klik.
+
+### 2. **Mode View Detail & Penyesuaian Tampilan Baris Transaksi**
+- **Tampilan Detail Transaksi (Read-Only Mode):** Mengetuk/memilih baris transaksi kini membuka dialog rincian transaksi lengkap (nominal, kategori, waktu/tanggal, dan keterangan) untuk mencegah pengeditan yang tidak disengaja.
+- **Proporsi Baris Transaksi Ergonomis:** Ketinggian, padding, ukuran ikon, dan jarak teks pada daftar transaksi disesuaikan secara seimbang dan rapi agar mudah dibaca serta efisien dalam memanfaatkan ruang layar.
+- **Aksi Terbimbing & Tata Letak Ergonomis:** Dalam dialog rincian detail dan informasi aplikasi, tombol tutup ditempatkan sebagai ikon **'X'** di pojok kanan atas pop-up. Pada bagian bawah dialog rincian detail, tombol **Hapus** (merah) ditempatkan di sisi kiri dan tombol **Edit** (biru) di sisi kanan secara simetris untuk pemisahan aksi yang jelas.
+- **Desain Dialog & Pop-up Modern:** Seluruh dialog/pop-up konfirmasi (Hapus Transaksi, Kelola Buku Keuangan, Pemilihan Bulan & Tahun Laporan, Rentang Tanggal, dan Informasi Aplikasi) diperbarui dengan ikon visual melingkar di bagian atas, tombol tutup **'X'** di pojok kanan atas, serta tata letak tombol M3 yang seragam.
+- **Kategori "Saldo Awal":** Ditambahkan pada daftar saran pilihan Uang Masuk untuk memudahkan pencatatan modal/saldo awal buku keuangan.
+- **Kategori "Pindah Kas":** Ditambahkan pada pilihan Uang Masuk dan Uang Keluar untuk memfasilitasi transfer/pemindahan dana antar rekening atau kas secara terstruktur.
+- **Saran Kategori Cerdas (Dropdown):** Kolom kategori dilengkapi dengan tombol dropdown saran kategori siap pakai.
+- **Pembersihan Kategori Otomatis:** Saat beralih tab antara "Uang Masuk" dan "Uang Keluar", kolom input kategori otomatis dibersihkan.
+- **Keterangan Default Minimalis:** Pengisian transaksi tanpa keterangan otomatis diatur ke nilai default `-` (strip).
+- **Swipe Gesture:** Geser ke Kiri untuk Hapus, Geser ke Kanan untuk Edit.
+
+### 3. **Filter & Pencarian Pintar**
+- **Filter Tipe Transaksi:** Saring transaksi berdasarkan "Semua", "Uang Masuk", atau "Uang Keluar".
+- **Filter Kategori Dinamis:** Saring transaksi berdasarkan kategori yang pernah dibuat secara otomatis.
+- **Tata Letak Konsisten & Responsif:** Dropdown tanggal, filter tipe, dan filter kategori disusun dalam proporsi grid yang seimbang.
+- **Tombol Reset Tanggal & Pencarian:** Tombol pintas untuk mengembalikan tampilan ke seluruh data transaksi.
+- **Ringkasan Filter Aktif Presisi:** Menampilkan rekapitulasi data terfilter ("Masuk", "Keluar", dan "Selisih") secara instan ketika filter atau pencarian aktif.
+
+### 4. **Optimasi Rotasi Lanskap & Display Cutout**
+- **Penanganan Orientasi Lanskap 180°:** Dukungan mode layout cutout `SHORT_EDGES` / `ALWAYS` dan penanganan `onConfigurationChanged` dinamis untuk memastikan tampilan aplikasi penuh tanpa terpotong atau menyisakan blok hitam pada rotasi landscape 90° maupun -90° di perangkat Android lama dan baru.
+- **Display Insets & Safe Drawing:** Penambahan `safeDrawing` insets pada `Scaffold` dan FAB untuk kenyamanan navigasi.
+
+### 5. **Laporan Bulanan & Tahunan Interaktif**
+- **Ringkasan Visual Bulanan:** Grafik batang minimalis membandingkan total pemasukan dan pengeluaran bulan berjalan.
+- **Ringkasan Visual Tahunan:** Grafik komparatif 12 bulan penuh (Januari-Desember) untuk analisis tren keuangan jangka panjang.
+- **Analisis Persentase Kategori:** Breakdown persentase kontribusi per kategori dengan indikator progres bar warna-warni.
+
+### 6. **Ekspor Laporan Profesional & Rekapitulasi Excel**
+- **Penamaan File Ekspor Cerdas:** File hasil ekspor (`.pdf`, `.xlsx`, `.csv`) kini otomatis menyertakan nama bulan & tahun (misal `laporan_bulanan_Juli_2026_BukuUtama_...`) atau nama tahun (misal `laporan_tahunan_2026_BukuUtama_...`) sesuai dengan tab laporan yang aktif saat diekspor.
+- **PDF Export Berwarna:** Hasilkan dokumen PDF resmi dengan judul dinamis `Laporan Keuangan Bulan [Bulan/Tahun]` atau `Laporan Keuangan Tahun [Tahun]`.
+- **Grafik Visual PDF:** Ekspor laporan tahunan otomatis menyertakan visualisasi grafik batang 12 bulan penuh.
+- **Batasan Kategori di PDF:** Membatasi analisis kategori hingga maksimal 15 kategori teratas (14 kategori terbesar + "Lainnya").
+- **Excel (.xlsx) & CSV:** Dukungan penuh ekspor tabel transaksi terperinci dengan style zebra-striping dan format mata uang.
+- **Sheet Rekapitulasi Bulanan & Tahunan Excel:** Lembar rekap harian per kategori (`"Rekap Juli 2026"`) dan rekap matriks tahunan (`"Rekap Tahun 2026"`).
+
+### 7. **Opsi Ekspor & Impor Backup JSON (Spesifik Buku & Multi-Buku)**
+- **Opsi Ekspor Backup Spesifik di Menu Titik Tiga:**
+  - **Ekspor Backup (Buku Ini):** Mengekspor khusus data transaksi pada buku keuangan yang sedang aktif.
+  - **Ekspor Backup (Semua Buku):** Mengekspor seluruh data transaksi dari seluruh buku keuangan sekaligus ke dalam satu file JSON.
+- **Impor Cerdas Tanpa Konflik:** Melacak dan mengelompokkan transaksi ke buku asal secara otomatis saat restore.
+- **Pencegahan Nama Buku Duplikat (Case-Insensitive):** Otomatis menambahkan sufiks angka ` (1)`, ` (2)` jika ditemukan konflik nama buku.
+
+### 8. **Tema Gelap & Terang Dinamis & Optimasi Lanskap**
+- **Gradient Total Saldo Premium:** Kotak ringkasan total saldo utama kini dibalut dengan gradasi warna linear (gradient) 3-stop yang modern, sangat estetik, dan nyaman di mata:
+  - **Light Mode:** Gradasi pastel premium sejuk yang mengalir lembut dari warna biru-indigo chic, lavender lembut, hingga sentuhan rose-pink hangat.
+  - **Dark Mode:** Gradasi kosmik nebula mewah yang memadukan warna violet berpendar, indigo pekat, hingga transisi abu-abu gelap metalik yang menyatu dengan latar belakang gelap.
+- **Optimasi Lanskap & Rotasi Layar:** 
+  - Penambahan `safeDrawing` insets pada seluruh layar (`Scaffold`) dan `displayCutoutPadding` pada Floating Action Button (FAB) untuk mencegah pemotongan tombol/konten saat layar dirotasi ke mode landscape pada perangkat yang memiliki takik (notch), cutout, atau black bar/sisi navigasi sistem Android model lama.
+  - Peningkatan pada dialog popup **"Tentang Aplikasi"** yang kini mendukung fitur scroll penuh (`verticalScroll`) sehingga seluruh informasi, tautan GitHub, dan donasi Saweria tetap dapat dibaca secara utuh di mode lanskap tanpa terpotong.
+- Antarmuka modern Material Design 3 yang ramah mata dengan dukungan Dark Mode dan Light Mode yang dapat diganti secara instan di layar utama.
+
+---
+
+## 🛠️ Detail Arsitektur & Teknologi
+
+Aplikasi ini dibangun menggunakan praktik pengembangan Android modern:
+
+- **Bahasa Pemrograman:** Kotlin 100%
+- **UI Framework:** Jetpack Compose (Material Design 3)
+- **Arsitektur:** MVVM (Model-View-ViewModel) dengan Unidirectional Data Flow (UDF)
+- **Penyimpanan Lokal:** Room Database (SQLite abstraction) untuk kegunaan 100% offline tanpa perlu koneksi internet.
+- **Asynchronous Operations:** Kotlin Coroutines & Flow (dengan `collectAsStateWithLifecycle` untuk efisiensi lifecycle-aware)
+- **Pembuatan PDF:** Android Native `PdfDocument` & `Canvas` API
+- **Pembuatan Excel:** Library super cepat `FastExcel` dari Dhatim
+
+---
+
+## 📁 Struktur Kode
+
+```text
+/app/src/main/java/com/example/
+├── MoneyTrackerApp.kt         # Entrypoint aplikasi & konfigurasi tema global
+├── MainActivity.kt            # Activity tunggal dengan deklarasi navigasi Compose
+├── data/
+│   ├── Transaction.kt         # Entity/Data Class Room Database
+│   ├── TransactionDao.kt      # Query SQL Database via interface DAO
+│   ├── TransactionRepository.kt # Repository layer sebagai Single Source of Truth
+│   └── AppDatabase.kt         # Inisialisasi Database Room
+├── ui/
+│   ├── screens/
+│   │   ├── HomeScreen.kt      # Tampilan utama dengan daftar transaksi, balance card, & filter
+│   │   ├── AddEditScreen.kt   # Tampilan form input & edit transaksi
+│   │   └── ReportScreen.kt    # Tampilan statistik visual bulanan & tahunan
+│   ├── theme/                 # Palet warna Material 3, tipografi, & setup tema
+│   └── viewmodel/             # State holders (MainViewModel, AddEditViewModel, ReportViewModel)
+└── utils/
+    ├── BackupUtils.kt         # Utilitas import/export file backup JSON secara aman (Spesifik Buku & Semua Buku)
+    └── ExportUtils.kt         # Logika ekspor profesional ke file PDF, XLSX, & CSV (Dengan nama periode otomatis)
+```
+
+---
+
+## 🚀 Cara Menjalankan & Build Aplikasi
+
+Aplikasi ini menggunakan sistem build Gradle Kotlin DSL.
+
+1. **Prasyarat:**
+   - Gunakan JDK 17 atau yang lebih baru.
+   - Gunakan Android Studio Jellyfish / Koala atau versi terbaru.
+
+2. **Kompilasi dan Jalankan:**
+   Buka direktori proyek ini di Android Studio, tunggu sinkronisasi Gradle selesai, lalu tekan tombol **Run** untuk menginstalnya ke perangkat emulator atau perangkat fisik Anda.
+
+3. **Gunakan Laporan Ekspor & Backup:**
+   - Ketika menekan ikon Ekspor PDF/Excel/CSV di halaman Laporan, aplikasi akan menghasilkan file dengan nama periode aktif (Bulan-Tahun) secara instan dan membuka chooser sistem untuk membagikannya via email, WhatsApp, cloud drive, dll.
+   - Gunakan menu titik tiga di layar utama untuk mengekspor backup JSON per-buku aktif atau semua buku sekaligus.
